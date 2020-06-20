@@ -26,6 +26,7 @@ main {
   margin-right: 30px;
   padding: 10px;
   border: 0 solid ;
+  margin: 0 auto;
   background-color: #EEEEEE
 }
 .step-box:last-child {
@@ -79,7 +80,12 @@ footer {
     margin: 50px auto;
   }
   .step-box {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    float: none;
+  }
+  .step-box:last-child {
+    margin: 0 auto;
+
   }
  }
